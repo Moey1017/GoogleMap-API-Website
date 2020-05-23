@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Japan Tourist website</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <link rel="icon" href="https://i.pinimg.com/originals/3e/4c/28/3e4c28c78ad8a85a98721bb0bae8cd23.jpg">
+        
+        <!-- api -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLi4c0yeYZEwLs4vvBE07i-tberdFu3cA&libraries=places"></script>
+
+        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+        <link rel="stylesheet" href="css/animate.css">
+
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+
+        <link rel="stylesheet" href="css/aos.css">
+
+        <link rel="stylesheet" href="css/ionicons.min.css">
+
+        <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+        <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+
+        <link rel="stylesheet" href="css/flaticon.css">
+        <link rel="stylesheet" href="css/icomoon.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- sakura -->
+        <link href="sakura_css/jquery-sakura.css" rel="stylesheet" type="text/css">
+
+
+        <!--icon-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <!--google map-->
+        <script src="js/google_map_functions.js" type="text/javascript"></script>
+        <!-- google map css and my own work css -->
+        <link href="css/google_map.css" rel="stylesheet" type="text/css"/>
+
+        <!-- portfolio --> 
+        <link rel="stylesheet" href="css/templatemo-style_portfolio.css">
+        <link rel="stylesheet" href="css/lightbox_portfolio.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><span>Japan</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="oi oi-menu"></span> Menu
+                </button>
+
+                <div class="collapse navbar-collapse" id="ftco-nav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active"><a href="index_1.html" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href=#portfolio class="nav-link">Gallery</a></li>
+                        <li class="nav-item"><a href=#attractions class="nav-link">Attractions</a></li>
+                        <li class="nav-item"><a href=#section-counter class="nav-link">About Japan</a></li>
+                        <li class="nav-item"><a href=#map class="nav-link">Map</a></li>
+                        <li class="nav-item cta"><a href="#" class="nav-link">Buy Ticket</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- END nav -->
+
+        <div class="hero-wrap js-fullheight" style="background-image: url('https://mocah.org/uploads/posts/4551323-street-urban-photography-lights-night-lamp-japan.jpg');" data-stellar-background-ratio="0.5">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-end" data-scrollax-parent="true">
+                    <div class="col-md-7 ftco-animate mt-5" data-scrollax=" properties: { translateY: '70%' }">
+                        <h1 class="mb-4" id="redFont" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Do you know <span>Japan</span> well?</h1>
+                        <p class="mb-4" id="intro" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span id="redFont5">Japan</span> attracted 31.19 million international tourists in 2018. Japan has 21 World Heritage Sites, including Himeji Castle, Historic Monuments of Ancient Kyoto and Nara.</p>
+                        <p class="d-flex align-items-center">
+                            <a href="www.youtube.com/embed/v=8_liJtmZHSw" class="icon-video popup-youtube d-flex justify-content-center align-items-center mr-3">
+                                <span class="ion-ios-play"></span>
+                            </a>
+                            <span class="watch">Watch Now</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="ftco-section ftco-no-pb ftco-no-pt">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="game-wrap-1 ftco-animate p-4">
+                            <div class="row p-2">
+                                <div class="col-md-6 pb-4 pb-lg-0 col-lg-3">
+                                    <div class="text d-flex">
+                                        <div class="team-logo d-flex">
+                                            <div class="img" style="background-image: url(https://i.pinimg.com/originals/1e/0a/87/1e0a87f9f50f705d091ce86c884d79ff.jpg);"></div>
+                                            <div class="img img-2" style="background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/d/d6/Welsh_Rugby_Union_logo.svg/1200px-Welsh_Rugby_Union_logo.svg.png);"></div>
+                                        </div>
+                                        <div class="team-name pl-3">
+                                            <h3><span>All Blacks</span> <span>WRU</span></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 pb-4 pb-lg-0 col-lg-3">
+                                    <div class="text">
+                                        <div class="img"></div>
+                                        <h3 class="league">Rugby Champion League</h3>
+                                        <span>Final</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 pb-4 pb-lg-0 col-lg-4">
+                                    <div class="text">
+                                        <div id="timer" class="d-flex mb-0">
+                                            <div class="time" id="days"></div>
+                                            <div class="time pl-3" id="hours"></div>
+                                            <div class="time pl-3" id="minutes"></div>
+                                            <div class="time pl-3" id="seconds"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 pb-4 pb-lg-0 col-lg-2">
+                                    <div class="text">
+                                        <p class="mb-0"><a href="https://www.rugbyworldcup.com/tickets" class="btn btn-primary py-3">Buy Tickets</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <div class="content-wrapper">
+                <div class="inner-container container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12">
+                            <div class="section-heading">
+                                <h4>Discover <span id="redFont2">&nbsp;Japan</span></h4>
+                                <div class="line-dec"></div>
+                                <p>Japan is the world's 4th largest island country and encompasses about 6,852 islands.he population of approximately 126 million is the world's eleventh largest.</p>
+                                <div class="filter-categories">
+                                    <ul class="project-filter">
+                                        <li class="filter" data-filter="all"><span>Show All</span></li>
+                                        <li class="filter" data-filter="branding"><span>Culture</span></li>
+                                        <li class="filter" data-filter="graphic"><span>Graphic</span></li>
+                                        <li class="filter" data-filter="nature"><span>Nature</span></li>
+                                        <li class="filter" data-filter="animation"><span>Animation</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="projects-holder-3">
+                                <div class="projects-holder">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 project-item mix nature">
+                                            <div class="thumb">
+                                                <div class="image">
+                                                    <a href="https://i1.wp.com/blissofasia.com/wp-content/uploads/2019/06/Japan.jpg?resize=1080%2C675&ssl=1" data-lightbox="image-1"><img src="https://i1.wp.com/blissofasia.com/wp-content/uploads/2019/06/Japan.jpg?resize=1080%2C675&ssl=1"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 project-item mix animation">
+                                            <div class="thumb">
+                                                <div class="image">
+                                                    <a href="https://www.planetware.com/photos-large/JPN/japan-mt-fuji-and-cherry-blossoms.jpg" data-lightbox="image-1"><img src="https://www.planetware.com/photos-large/JPN/japan-mt-fuji-and-cherry-blossoms.jpg"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 project-item mix branding">
+                                            <div class="thumb">
+                                                <div class="image">
+                                                    <a href="https://image.insider.com/5d26280921a86107bb51bd92?width=1100&format=jpeg&auto=webp" data-lightbox="image-1"><img src="https://image.insider.com/5d26280921a86107bb51bd92?width=1100&format=jpeg&auto=webp"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 project-item mix graphic nature">
+                                            <div class="thumb">
+                                                <div class="image">
+                                                    <a href="https://042gists.com/wp-content/uploads/2019/08/japn-840x531.jpg" data-lightbox="image-1"><img src="https://042gists.com/wp-content/uploads/2019/08/japn-840x531.jpg"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 project-item mix branding">
+                                            <div class="thumb">
+                                                <div class="image">
+                                                    <a href="https://d2rdhxfof4qmbb.cloudfront.net/wp-content/uploads/20190702161604/Japanese-street-food-feature.jpg" data-lightbox="image-1"><img src="https://d2rdhxfof4qmbb.cloudfront.net/wp-content/uploads/20190702161604/Japanese-street-food-feature.jpg"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 project-item mix graphic animation">
+                                            <div class="thumb">
+                                                <div class="image">
+                                                    <a href="https://wearetravelgirls.com/wp-content/uploads/2017/09/japan.jpg" data-lightbox="image-1"><img src="https://wearetravelgirls.com/wp-content/uploads/2017/09/japan.jpg"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+        <section class="ftco-section ftco-team img" id="attractions" style="background-image:url(https://www.polkadotpassport.com/wp-content/uploads/2016/05/Miyajima1-1024x683.jpg);" data-stellar-background-ratio="0.5">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row justify-content-center pb-5">
+                    <div class="col-md-6 heading-section heading-section-white text-center ftco-animate">
+                        <span class="subheading">Top attractions in Japan</span>
+                        <h2 class="mb-4">Beauty of <span>Japan</span></h2>
+                        <p>Japan attracted 19.73 million international tourists in 2015 and increased by 21.8% to attract 24.03 million international tourists in 2016.</p>
+                    </div>  
+                </div>
+                <div class="row">
+                    <div class="col-md-12 ftco-animate">
+                        <div class="carousel-team owl-carousel">
+                            <div class="item">
+                                <a href="#map" onclick="showOnMap(1,10)">
+                                    <div class="team-wrap text-center">
+                                        <div class="img" style="background-image: url(https://media.timeout.com/images/102759489/630/472/image.jpg);"></div>
+                                        <div class="text">
+                                            <h3 class="mb-0">Mount Fuji</h3>
+                                            <span class="position">Shizuoka</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#map" onclick="showOnMap(3,10)">
+                                    <div class="team-wrap text-center">
+                                        <div class="img" style="background-image: url(https://www.planetware.com/photos-large/JPN/japan-attractions-imperial-palace.jpg);"></div>
+                                        <div class="text">
+                                            <h3 class="mb-0">Imperial Palace</h3>
+                                            <span class="position">Kyoto</span>
+                                        </div>
+                                    </div></a>
+                            </div>
+                            <div class="item">
+                                <a href="#map" onclick="showOnMap(4,10)">
+                                    <div class="team-wrap text-center">
+                                        <div class="img" style="background-image: url(https://www.travelcaffeine.com/wp-content/uploads/2017/04/nijo-castle-kyoto-japan-975.jpg);"></div>
+                                        <div class="text">
+                                            <h3 class="mb-0">Nijō Castle</h3>
+                                            <span class="position">Kyoto</span>
+                                        </div>
+                                    </div></a>
+                            </div>
+                            <div class="item">
+                                <a href="#map" onclick="showOnMap(5,10)">
+                                    <div class="team-wrap text-center">
+                                        <div class="img" style="background-image: url(https://cache-graphicslib.viator.com/graphicslib/page-images/742x525/130753_Japan_Hiroshima%20Peace%20Memorial_thinkstock_151664060.jpg);"></div>
+                                        <div class="text">
+                                            <h3 class="mb-0">Peace Memorial Park</h3>
+                                            <span class="position">Hiroshima</span>
+                                        </div>
+                                    </div></a>
+                            </div>
+                            <div class="item">
+                                <a href="#map" onclick="showOnMap(2,10)">
+                                    <div class="team-wrap text-center">
+                                        <div class="img" style="background-image: url(https://www.planetware.com/photos-large/JPN/japan-attractions-kyoto.jpg);"></div>
+                                        <div class="text">
+                                            <h3 class="mb-0">Arashiyama Bamboo Grove</h3>
+                                            <span class="position">Kyoto</span>
+                                        </div>
+                                    </div></a>
+                            </div>
+                            <div class="item">
+                                <a href="#map" onclick="showOnMap(6,10)">
+                                    <div class="team-wrap text-center">
+                                        <div class="img" style="background-image: url(https://www.planetware.com/photos-large/JPN/japan-attractions-hiroshima-itsukushima.jpg);"></div>
+                                        <div class="text">
+                                            <h3 class="mb-0">Island Shrine of Itsukushima</h3>
+                                            <span class="position">Itsukushima</span>
+                                        </div>
+                                    </div></a>
+                            </div>
+                            <div class="item">
+                                <a href="#map" onclick="showOnMap(7,10)">
+                                    <div class="team-wrap text-center">
+                                        <div class="img" style="background-image: url(http://www.kamikochi.org/images/nationalpark_photo4.jpg);"></div>
+                                        <div class="text">
+                                            <h3 class="mb-0">Chūbu-Sangaku National Park</h3>
+                                            <span class="position">Honshu</span>
+                                        </div>
+                                    </div></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+            <div class="container">
+                <div class="row d-flex">
+                    <div class="col-md-6 d-flex">
+                        <div class="img d-flex align-self-stretch" style="background-image:url(https://www.theinvisibletourist.com/wp-content/uploads/2019/01/2-weeks-in-japan-itinerary-pin-7.jpg);"></div>
+                    </div>
+                    <div class="col-md-6 pl-lg-5 py-5">
+                        <div class="row justify-content-start pb-3">
+                            <div class="col-md-12 heading-section ftco-animate">
+                                <h2 class="mb-4"><span class="whiteFont">About</span> Japan</h2>
+                                <p><span id="redFont3">Japan</span> has 21 World Heritage Sites, including Himeji Castle, Historic Monuments of Ancient Kyoto and Nara. Popular tourist attractions include Tokyo and Hiroshima, Mount Fuji, ski resorts such as Niseko in Hokkaido, Okinawa, riding the shinkansen and taking advantage of Japan's hotel and hotspring network.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
+                                <div class="block-18 text-center py-3 bg-light mb-4">
+                                    <div class="text">
+                                        <strong class="number" data-number="126500000">0</strong>
+                                        <span>Population</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
+                                <div class="block-18 text-center py-3 bg-light mb-4">
+                                    <div class="text">
+                                        <strong class="number" data-number="377973">0</strong>
+                                        <span>Area of Japan (km²)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
+                                <div class="block-18 text-center py-3 bg-light mb-4">
+                                    <div class="text">
+                                        <strong class="number" data-number="31190000">0</strong>
+                                        <span>Number of Tourist</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
+                                <div class="block-18 text-center py-3 bg-light mb-4">
+                                    <div class="text">
+                                        <strong class="number" data-number="21">0</strong>
+                                        <span>World Heritage Sites</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+        <div id="map">
+            <div id="controlPanel">
+                <b>Start:</b>
+                <input id="start" type="text">
+                <button id="swap" onclick="swapStartEnd()"><i class="material-icons">swap_vert</i></button><br>
+                <b>End :&nbsp;</b>
+                <input id="end" type="text">
+                <button id="reset" onclick="resetStartEnd()"><i class="material-icons">cached</i></button><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button id="Driving" onclick='travel = "DRIVING";calculateRoute()'><i class="material-icons">directions_car</i></button>
+                <button id="Bus" onclick='travel = "TRANSIT";calculateRoute()'><i class="material-icons">directions_bus</i></button>
+                <button id="bicycling" onclick='travel = "BICYCLING";calculateRoute()'><i class="material-icons">directions_bike</i></button>
+                <button id="Walking" onclick='travel = "WALKING";calculateRoute()'><i class="material-icons">directions_walk</i></button>
+            </div>
+            <div id="map_label">
+                <ul>
+                    <li><h2>Services</h2></li>
+                    <li><label for='shopping_mall'>Shopping Mall</label><input type='radio' name='search' id='shopping_mall' value='shopping_mall' checked onclick='displayMap()'></li>
+                    <li><label for='tourist_attraction'>Tourist Attraction</label><input type='radio' name='search' id='tourist_attraction' value='tourist_attraction' onclick='displayMap()'></li>
+                    <li><label for='tourist_attraction'>Hotel</label><input type='radio' name='search' id='hotel' value='hotel' onclick='displayMap()'></li>
+                </ul>
+            </div>
+            <div id="mapDiv"></div>   
+
+            <div id="directions"></div>
+        </div>
+            </section>
+
+        <section class="ftco-section" id="festival_sec">
+            <div class="container">
+                <div class="row justify-content-center mb-5 pb-3">
+                    <div class="col-md-7 heading-section text-center ftco-animate">
+                        <span class="subheading">November</span>
+                        <h2>Japan <span class="whiteFont">Festival</span></h2>
+                    </div>
+                </div>
+                <div class="row d-flex">
+                    <div class="col-md-6 col-lg-3 ftco-animate">
+                        <div class="blog-entry justify-content-end">
+                            <a href="https://www.japanvisitor.com/japanese-festivals/festival-november" class="block-20" style="background-image: url(http://media.japanpowered.com/images/fertility-festival.jpg);">
+                            </a>
+                            <div class="text mt-3 float-right d-block">
+                                <div class="d-flex align-items-center p-2 pr-3 mb-4 topp">
+                                    <div class="one">
+                                        <span class="day mr-1">03</span>
+                                    </div>
+                                    <div class="two">
+                                        <span class="yr">2019</span>
+                                        <span class="mos">November</span>
+                                    </div>
+                                </div>
+                                <h3 class="heading"><a href="#">Harvest Festival</a></h3>
+                                Otoshi Shrine, Tsunozu, Shimane
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 ftco-animate">
+                        <div class="blog-entry justify-content-end">
+                            <a href="https://www.japanvisitor.com/japanese-festivals/festival-november" class="block-20" style="background-image: url(https://saga-kashima-kankou.com/wp/wp-content/uploads/2018/12/PSDSC09548.jpg);">
+                            </a>
+                            <div class="text mt-3 float-right d-block">
+                                <div class="d-flex align-items-center p-2 pr-3 mb-4 topp">
+                                    <div class="one">
+                                        <span class="day mr-1">08</span>
+                                    </div>
+                                    <div class="two">
+                                        <span class="yr">2019</span>
+                                        <span class="mos">November</span>
+                                    </div>
+                                </div>
+                                <h3 class="heading"><a href="#">Ohitaki Festival</a></h3>
+                                Fushimi Inari Shrine, Fushimi, Kyoto
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 ftco-animate">
+                        <div class="blog-entry">
+                            <a href="https://www.japanvisitor.com/japanese-festivals/festival-november" class="block-20" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTYiEhYPB0Pa1wN0o2r-paCWAMcls6FOSOA5V8cIS04_rjzGBuS);">
+                            </a>
+                            <div class="text mt-3 float-right d-block">
+                                <div class="d-flex align-items-center p-2 mb-4 topp">
+                                    <div class="one">
+                                        <span class="day mr-1">15</span>
+                                    </div>
+                                    <div class="two">
+                                        <span class="yr">2019</span>
+                                        <span class="mos">March</span>
+                                    </div>
+                                </div>
+                                <h3 class="heading"><a href="#">Shichi-Go-San Festival</a></h3>
+                                Nationwide
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 ftco-animate">
+                        <div class="blog-entry">
+                            <a href="https://www.japanvisitor.com/japanese-festivals/festival-november" class="block-20" style="background-image: url(http://3.bp.blogspot.com/-0oodVfSrbgw/TpMV17suX9I/AAAAAAAAAOg/SkB33zcMqjE/s1600/img_44391.jpg);">
+                            </a>
+                            <div class="text mt-3 float-right d-block">
+                                <div class="d-flex align-items-center p-2 pr-3 mb-4 topp">
+                                    <div class="one">
+                                        <span class="day mr-1">23</span>
+                                    </div>
+                                    <div class="two">
+                                        <span class="yr">2019</span>
+                                        <span class="mos">March</span>
+                                    </div>
+                                </div>
+                                <h3 class="heading"><a href="#">Hadakambo Festival</a></h3>
+                                Hofu Tenman-gu Shrine, Hofu
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="ftco-subscribe img" style="background-image: url(https://greatinspire.com/wp-content/uploads/2016/06/Most-Beautiful-Places-In-Japan-15.jpg);">
+            <div class="overlay">
+                <div class="container">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-md-10 text-wrap text-center heading-section heading-section-white ftco-animate">
+                            <h2>Subcribe to our upcoming events</h2>
+                            <div class="row d-flex justify-content-center mt-4 mb-4">
+                                <div class="col-md-10">
+                                    <form action="#" class="subscribe-form">
+                                        <div class="form-group d-flex">
+                                            <input type="text" class="form-control" placeholder="Enter email address">
+                                            <input type="submit" value="Subscribe" class="submit px-3">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="ftco-footer ftco-footer-2 ftco-section">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-md">
+                        <div class="ftco-footer-widget mb-4">
+                            <h2 class="ftco-heading-2">Japan</h2>
+                            <p>For inbound tourism, Japan was ranked 16th in the world in 2015. In 2009, the Yomiuri Shimbun published a modern list of famous sights under the name Heisei Hyakkei (the Hundred Views of the Heisei period).</p>
+                            <ul class="ftco-footer-social list-unstyled float-md-left float-lft">
+                                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="ftco-footer-widget mb-4">
+                            <h2 class="ftco-heading-2">Have a Questions?</h2>
+                            <div class="block-23 mb-3">
+                                <ul>
+                                    <li><span class="icon icon-map-marker"></span><span class="text">Japan, 〒160-0013 Tokyo, Shinjuku City, Kasumigaokamachi, 4 Chome−1, 日本青年館・日本スポーツ振興センタービル</span></li>
+                                    <li><a href="#"><span class="icon icon-phone"></span><span class="text">03-5774-0992</span></a></li>
+                                    <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@japanrugby2019.or.jp</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Moey</a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- loader -->
+        <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery-migrate-3.0.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.easing.1.3.js"></script>
+        <script src="js/jquery.waypoints.min.js"></script>
+        <script src="js/jquery.stellar.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/aos.js"></script>
+        <script src="js/jquery.animateNumber.min.js"></script>
+        <script src="js/bootstrap-datepicker.js"></script>
+        <script src="js/scrollax.min.js"></script>
+        <script src="js/main.js"></script>
+
+        <!--sakura-->
+        <script src="sakura_js/jquery-sakura.min.js"></script>
+        <script>
+                                $(window).load(function () {
+                                    $('body').sakura();
+                                });
+        </script>
+
+        <!-- portfolio -->
+        <script src="js/plugins_portfolio.js"></script>
+        <script src="js/main_portfolio.js"></script>
+        <!-- smooth scrolling -->
+        <script src="js/smooth_scrolling.js" type="text/javascript"></script>
+    </body>
+</html>
